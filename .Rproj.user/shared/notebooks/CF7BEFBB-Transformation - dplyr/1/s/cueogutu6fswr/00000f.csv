@@ -1,0 +1,5 @@
+"0","summarize(by_day, delay = mean(dep_delay, na.rm = TRUE))
+"
+"2","Error in summarize(by_day, delay = mean(dep_delay, na.rm = TRUE)) : 
+  object 'by_day' not found
+"

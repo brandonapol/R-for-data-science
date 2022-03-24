@@ -1,0 +1,4 @@
+"0","ggplot(data = mpg) + "
+"0","  geom_point(mapping = aes(x = displ, y = hwy, color = class)) + #, color = rgb(0.7,1,0.3)) +"
+"0","# also try: ...y = hwy, shape = class))"
+"0","  facet_wrap(~ class, nrow = 2)"

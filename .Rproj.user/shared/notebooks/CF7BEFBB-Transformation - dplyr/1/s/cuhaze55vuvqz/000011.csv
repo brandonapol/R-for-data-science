@@ -1,0 +1,7 @@
+"0","delays <- not_cancelled %>% "
+"0","  group_by(tailnum) %>%"
+"0","  summarize("
+"0","    delay = mean(arr_delay)"
+"0","  )"
+"0","ggplot(data = delays, mapping = aes(x = delay)) +"
+"0","  geom_freqpoly(binwidth = 10)"

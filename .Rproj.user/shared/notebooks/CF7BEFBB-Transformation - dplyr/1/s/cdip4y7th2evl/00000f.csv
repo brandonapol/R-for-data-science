@@ -1,0 +1,9 @@
+"0","# Create a variable that we can re-use later that removes all cancelled flights"
+"0","not_cancelled <- flights %>%"
+"0","  filter(!is.na(dep_delay), !is.na(arr_delay))"
+"0",""
+"0","not_cancelled %>%"
+"0","  group_by(year, month, day) %>%"
+"0","  summarize(mean = mean(dep_delay))"
+"1","[38;5;253m`summarise()` has grouped output by 'year', 'month'. You can override using the `.groups` argument.[39m
+"
